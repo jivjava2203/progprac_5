@@ -37,9 +37,9 @@ public class Person {
         
         this.address = address;
     }
-    public void setId(String id) {
+    public void setId(int id) {
         
-        this.id = 0;
+        this.id = id;
     }
 
 //getters
