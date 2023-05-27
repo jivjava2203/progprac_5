@@ -30,7 +30,7 @@ public class Student extends Person {
         
         this.course = course;
     }
-    public void setYearleve(int yearlevel) {
+    public void setYearlevel(int yearlevel) {
         
         this.yearlevel = yearlevel;
     }
@@ -41,9 +41,9 @@ public class Student extends Person {
         
         return course;
     }
-    public int getYearleve() {
+    public int getYearlevel() {
         
-        return  yearlevel;
+        return yearlevel;
     }
 @Override
     public boolean equals(Object obj) {
