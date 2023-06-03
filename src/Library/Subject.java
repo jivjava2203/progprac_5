@@ -27,7 +27,7 @@ public class Subject {
     }
     
 //setters    
-    public void seTitlecode(String titlecode) {
+    public void setTitlecode(String titlecode) {
         
         this.titlecode = titlecode;
     }

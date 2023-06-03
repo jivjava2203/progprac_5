@@ -8,9 +8,9 @@ import java.util.ArrayList;
  */
 public class StudentCRUD {
     
-      ArrayList <Student> studentList = new ArrayList();
+    public ArrayList <Student> studentList = new ArrayList();
         
-    StudentCRUD() {
+    public StudentCRUD() {
         studentList = new ArrayList();
     }
     
@@ -40,7 +40,7 @@ public class StudentCRUD {
             }
     }      
     
-    public void StudentDelete(Student student) {
+    public void studentDelete(Student student) {
         
         boolean found = false;
             for (int i = 0; i < studentList.size() && found !=true; i++) {

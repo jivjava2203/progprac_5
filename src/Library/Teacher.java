@@ -30,7 +30,7 @@ public class Teacher extends Person {
         
             this.rank = rank;
     }
-    public void setDesignatin(String designation) {
+    public void setDesignation(String designation) {
         
             this.designation = designation;
     }

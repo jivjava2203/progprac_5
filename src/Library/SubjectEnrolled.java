@@ -59,7 +59,7 @@ public class SubjectEnrolled {
             
             return teacher;
         }
-        public double grade() {
+        public double getGrade() {
             
             return grade;
         }

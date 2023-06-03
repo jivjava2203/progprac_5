@@ -41,6 +41,7 @@ public class Person {
         
         this.id = id;
     }
+    
 
 //getters
     
@@ -60,7 +61,11 @@ public class Person {
         
         return id;
     } 
-    
+    public String getCname() {
+        
+        return fname + " " + lname;
+    }
+     
 @Override
     public String toString() {
         
